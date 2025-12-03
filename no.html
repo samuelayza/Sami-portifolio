@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel Ayza - Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="bro.css" />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar for mobile -->
+    <!-- Home Section -->
+    <section id="home" class="section home reveal">
+        <!-- Horizontal icons menu above profile image -->
+        <div class="home-menu">
+            <a href="#about"><i class=""></i> About Me</a>
+            <a href="#skills"><i class=""></i> Skills</a>
+            <a href="#projects"><i class=""></i> Projects</a>
+            <a href="#contact"><i class=""></i> Contact Me</a>
+        </div>
+
+        <div class="home-content">
+            <img src="sami.jpg" alt="Samuel Ayza" class="profile-img" />
+            <h1>Hello, I'm <span>Samuel Ayza</span></h1>
+            <p>Computer Science Student</p>
+
+            <!-- Social Icons Centered -->
+            <div class="social-icons">
+                <a href="https://github.com/samuelayza" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://t.me/samiyeenatulij" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://facebook.com/YOUR-FACEBOOK-USERNAME" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://instagram.com/YOUR-INSTAGRAM-USERNAME" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@YOUR-TIKTOK-USERNAME" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://wa.me/251921988491" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+
+            <button class="btn" onclick="scrollToSection('contact')">Contact Me</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about reveal">
+        <h2>About Me</h2>
+        <p>I am a computer science student at Wachemo University. I am passionate about coding, web development, and creating functional applications.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills reveal">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects reveal">
+        <h2>Projects</h2>
+        <div class="project-card">Registration Form</div>
+        <div class="project-card">Personal Portfolio</div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact reveal">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- JS -->
+    <script src="hay.js"></script>
+</body>
+</html>
