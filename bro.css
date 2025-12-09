@@ -35,7 +35,18 @@ body{background:#0f0f0f;color:white;}
     text-align:center;
     padding:120px 10% 0 10%;
 }
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
 
+.menu-list {
+    display: none;
+}
+.menu-list.active {
+    display: block;
+}
 /* Horizontal menu above profile image */
 .home-menu{
     display:flex;
@@ -46,6 +57,7 @@ body{background:#0f0f0f;color:white;}
     flex-shrink: 0;
     overflow-x:auto;         /* allow horizontal scroll if small screen */
 }
+
 .home-menu a{
     text-decoration:none;
     color:#00eaff;
