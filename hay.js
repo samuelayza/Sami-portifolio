@@ -8,6 +8,18 @@ function toggleMenu(){
     const nav = document.getElementById('navLinks');
     nav.classList.toggle('open');
 }
+function toggleMenu() {
+    const menu = document.getElementById("menuList");
+    const icon = document.getElementById("menuIcon");
+
+    menu.classList.toggle("active");
+
+    if (menu.classList.contains("active")) {
+        icon.innerHTML = "✖";  // change ☰ to X
+    } else {
+        icon.innerHTML = "☰";  // change back to ☰
+    }
+}
 
 // Scroll reveal animation
 const revealElements = document.querySelectorAll('.reveal');
